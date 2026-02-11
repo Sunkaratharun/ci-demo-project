@@ -3,11 +3,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Sunkaratharun/ci-demo-project.git'
-            }
-        }
+        
 
         stage('Build') {
             steps {
