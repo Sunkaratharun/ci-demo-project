@@ -13,7 +13,7 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                bat 'python my calculator.py'
+                bat 'AppData\\Local\\Microsoft\\WindowsApps\\python.exe'
             }
         }
 
